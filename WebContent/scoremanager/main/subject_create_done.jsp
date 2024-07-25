@@ -9,6 +9,7 @@
                 ${message}
             </div>
             <a href="SubjectList.action" class="btn btn-primary">科目一覧に戻る</a>
+            <a href="SubjectCreate.action" class="btn btn-secondary">戻る</a>
         </section>
     </c:param>
 </c:import>

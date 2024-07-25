@@ -88,7 +88,7 @@ public class StudentListAction extends Action {
         // リクエストに学生リストをセット
         request.setAttribute("students", students);
         // リクエストにデータをセット
-        request.setAttribute("list", list);
+        request.setAttribute("class_num_set", list);
         request.setAttribute("ent_year_set", entYearSet);
 
         // JSPへフォワード

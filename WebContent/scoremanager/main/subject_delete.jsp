@@ -19,7 +19,7 @@
             <form action="SubjectDeleteExecute.action" method="post">
                 <input type="hidden" name="cd" value="${subject.cd}">
                 <button type="submit" class="btn btn-danger">削除</button>
-                <a href="SubjectList.action" class="btn btn-secondary">キャンセル</a>
+                <a href="SubjectList.action" class="btn btn-secondary">戻る</a>
             </form>
         </section>
     </c:param>
